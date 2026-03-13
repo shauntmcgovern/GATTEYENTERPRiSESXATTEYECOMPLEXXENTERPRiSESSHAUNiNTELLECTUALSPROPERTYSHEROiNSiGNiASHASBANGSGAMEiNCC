@@ -10,7 +10,13 @@ Bitcoin(find out how to mine and increment effectively and run a farm, churning 
 6. https://developer.bitcoin.org/devguide/mining.html
 7. https://bitcoin.org/en/full-node#possible-problems 'Node Explanation' which is a full on Computer Scientist term for a digital form able to complete methods for example it could be a sample user's save to save for instance or ongoing portfolio and personal.profile()
   --bitcoind -daemon --'Bitcoin Core' is programmed to decide which block chain contains valid transactions and keeps it 'decentralized'
-8. 
+8. https://bitcoin.org/en/bitcoin-core/  --once you fully understand the bitcoin 'Node', software./software/'OST 
+9. 
+
+-- What I think this is if you were to join a Bitcoin'Mining'Pool and you have to be invited to a 'team' via /@Slack' you would then begin to work on a project meaning any application working with
+Bitcoin and the other way to effectively make 'money' with only 'Bitcoin' is to run at least '2' or beit' three complete and public applications across any software and what you are really doing
+and what has been seen, is administerring the 'checks and balances' of the digital coin so your 'Users' would be able to use Bitcoin to its full degree and for thet indivdual user to complete a transaction or
+save its money with Bitcoin.:09;{L}'
 ""I think this might be over, I just got my 'Redetermination' and everything went smoothly,"/'(PST09) and I might due a little research that you cannot effectively map a coin and derive money out of thin-air
 you must not only own an app but work for the company, that is all--joining a mining pool has some ""company"" incentive or development regimen's I migh')t move a trunk for Aaron for
 20 crack dollars and keep it to myself because its way to small, thats all for today..)?/"-'{POST}+/='{LLs}+/='
@@ -25,6 +31,9 @@ what you are doing as a developer is that you are making the money goes through 
 'Block Chains' and what does that keywording exactly mean..
 --Each transaction is verified and recorded in a block, which is linked to the previous block through a unique digital fingerprint called a hash, forming a chronological chain of blocks.
 --This structure makes the blockchain tamper-resistant, as altering one block This structure makes the blockchain tamper-resistant, as altering one block would invalidate all subsequent blocks. 
+
+""A Bitcoin node is software (most commonly Bitcoin Core) that runs on a computer, participating in the decentralized peer-to-peer network to validate, store, and relay transactions. 
+Full nodes increase security and privacy, allowing users to verify their own transactions without relying on third parties. They are essential for maintaining network integrity.""
 
 --1'
 So in conclusion, the answer that we are all looking for is this. You must run at least 2 maybe 3 or even four constant applications using a digital currency, which can be run with a 'Bitcoin' server farm you either house or with a Company, private or publicly--m/=+'CST

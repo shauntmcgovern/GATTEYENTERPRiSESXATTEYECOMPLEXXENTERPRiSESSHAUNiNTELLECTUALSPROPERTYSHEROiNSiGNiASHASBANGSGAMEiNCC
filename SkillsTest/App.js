@@ -44,7 +44,7 @@ function App() {
 		      {data.map((item) => (
 		        <div key={item.id} className="circle-item">
 		          <img
-		            src={`https://fedskillstest.ct.digital/4.png?u=${item.username}`} // Placeholder image
+		            src={`${item.profile_picture}?u=${item.username}`} // Placeholder image
 		            alt={item.name}
 		            className="circle-image"
 		          />

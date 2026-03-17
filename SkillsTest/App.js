@@ -49,6 +49,7 @@ function App() {
 		            className="circle-image"
 		          />
 		          <p className="name-text">{item.name}</p>
+				  <p className="name-text">{item.gender}, {item.age}</p>
 		        </div>
 		      ))}
 	</div>
@@ -68,7 +69,7 @@ function App() {
           Learn React
         </a>
       </header>
-	  <h1>Coalitions Table of Patients</h1>
+	  <h1>Shauns Table of Patients</h1>
 	  		        <table border="1" style={{ width: "100%", textAlign: "left" }}>
 	  		          <thead>
 	  		            <tr>

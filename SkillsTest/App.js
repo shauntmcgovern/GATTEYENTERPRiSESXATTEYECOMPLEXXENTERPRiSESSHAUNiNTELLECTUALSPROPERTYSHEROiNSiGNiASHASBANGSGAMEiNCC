@@ -41,13 +41,16 @@ function App() {
 	<Fragment>
 
 	<div className="scroll-container">
+		<h2>Patients</h2>
 		      {data.map((item) => (
-		        <div key={item.id} className="circle-item">
-		          <img
+		        <div key={item.id} className="circle-item">         
+				  
+				  <img
 		            src={`${item.profile_picture}?u=${item.username}`} // Placeholder image
 		            alt={item.name}
 		            className="circle-image"
 		          />
+				  
 		          <p className="name-text">{item.name}</p>
 				  <p className="name-text">{item.gender}, {item.age}</p>
 		        </div>
@@ -102,7 +105,7 @@ export default App;
 
 https://fedskillstest.ct.digital/4.png
 
-
+<p className="name-text">Patients</p> 
 const divOne = document.getElementById('divOne');
 const divTwo = document.getElementById('divTwo');
 	

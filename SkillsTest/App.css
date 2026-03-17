@@ -145,10 +145,18 @@ body {
 
 .scroll-container {
   display: flex;
-  overflow-x: auto;
+  overflow-y: auto;
   gap: 20px;
   padding: 20px;
   white-space: nowrap;
+  align-items: flex-start;
+  flex-direction: column;
+  top: 122px;
+  left: 18px;
+  width: 367px;
+  height: 1054px;
+  border-radius: 16px;
+  opacity: 1;
 }
 
 .circle-item {
@@ -176,6 +184,16 @@ body {
   text-overflow: ellipsis; /* Handles long names */
 }
 /*<!--
+text-align: left;
+justify-content: flex-start;
+flex-direction: column;
+overflow-x: auto;
+overflow-y: scroll;
+scroll-snap-type: y mandatory;
+direction: rtl;
+align-items: flex-start;
+align-items: center;
+
 Questionnaire:-;
 I would make them c'ritic:a:l of my w'ork.:09(:)/'st And conti'nue to succeed them with '::-)it-)';(!/?'). Thats all':-)/0' Great'::089;(/0')
 As Marco's Playfab('HashbangGames)Unity Developer..<,{m.>/0'
@@ -516,6 +534,8 @@ Shaun just figured out how to install this Plugin(node_Module)NPM package while 
 
 ((npm install chart.js --save))
 ((npm i react-chartjs-2 chart.js))
+
+
 1. In order to do this project you need to run a Server, not only that, but a 'React Serve' and 'Start Server' command leading to the exampleProject running a 'React'build 
 -- https://xd.adobe.com/view/121254c9-532f-4772-a1ba-dfe529a96b39-4741/ --
 Install MyEclipse which is the chosen {IDE} it comes with Node.js v22.13.1 already built-{in}
@@ -536,7 +556,12 @@ In order to use 2(wo) 'div' elements and since there can only be one 'parent' yo
 
 --the next step is to create the ""Scrollview"" seen on the left from the Adobe.Mockup() which has the PatientProfilePicture(circle'Size), PatientName, PatientGender and the 
 PatientAge' grabbed from the 'API' and stylized to display ""OnClick"" its information and in this certain way.
-  
+ 
+--Container RespitoryRate has a HEX #E0F3FA 
+--the container Temperature has a HEX COLOR OF # FFE6E9  
+--the container of the 'HeartRate' has a HEX'HEX'{#FFE6F1}+/='{=} 
+--A Chart.JS Container created for only 'Jessica Taylor's Blood Pressure' has the backgroundColor of HEX#F4F0FE
+
 After you setup the Chartjs library inside of the current 'MyEclipse' Project, the choice is to run a function in the App.js file to retrieve the JSON DATA, from the example API, which is on lock it isn't public and speaking of 
 public, this rule of thumb has been found here*'Due to browser security restrictions on accessing local files with fetch, you cannot simply open the HTML file locally. You need a simple web server to serve the files. You can use
 --so within MyEclipse that is a LocalServerEnvironment and you have to run the server, from ReactServ which means it is generating from Node.js meaning I can't trial and error this with the index.html file any longer like before 

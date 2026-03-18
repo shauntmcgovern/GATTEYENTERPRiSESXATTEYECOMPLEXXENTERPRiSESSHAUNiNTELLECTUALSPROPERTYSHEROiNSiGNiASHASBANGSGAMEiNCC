@@ -39,6 +39,12 @@ function App() {
 
   return (
     <Fragment>
+      <div classname="rectangle-container">
+        <img src="./TechCareTitleCard.png" />
+        TechCare Overview Patients Schedule Message Transactions
+        
+      </div>
+
       <div className="scroll-container">
         <h2>Patients</h2>
         {data.map((item) => (
@@ -98,8 +104,36 @@ function App() {
 export default App;
 
 /*
+<div key={item.id} className="circle-item">
+          <img
+            src={`${item.profile_picture}?u=${item.username}`} // Placeholder image
+            alt={item.name}
+            className="circle-image"
+          />
+        </div>
+
+
+<button
+          class="icon-button"
+          onclick="alert('Settings clicked!')"
+          aria-label="Overview"
+        ></button>
+
+
+ <button
+          class="icon-PatientsButton"
+          onclick="alert('Settings clicked!')"
+          aria-label="Patients"
+        ></button>
+
+
 
 https://fedskillstest.ct.digital/4.png
+<img src="TechCareTitleCard.jpg">
+<button type="button" onclick="alert('Button clicked!')">
+<img src="Assets/Overview.png" alt="Overview" style="width:50px;height:50px;">
+Click Me</button>
+//<img src="../Overview.png" alt="Overview">
 <img src={logo} className="App-logo" alt="logo" />
 <p className="name-text">Patients</p> 
 const divOne = document.getElementById('divOne');

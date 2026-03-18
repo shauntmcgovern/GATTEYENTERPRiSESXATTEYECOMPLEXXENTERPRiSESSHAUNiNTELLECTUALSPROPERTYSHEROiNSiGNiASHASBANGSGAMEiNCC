@@ -141,6 +141,18 @@ body {
     transform: rotate(360deg);
   }
 }
+.rectangle-container {
+  top: 18px;
+  left: 18px;
+  width: 1564px;
+  height: 72px;
+  background-color: #ffffff; /* Sets a background color to make it visible */
+  padding: 20px; /* Optional: adds space between content and border */
+  margin: 10px; /* Optional: adds space outside the container */
+  color: #ffffff; /* Optional: styles the text color */
+  border-radius: 70px;
+  opacity: 1;
+}
 
 .scroll-container {
   display: flex;
@@ -183,6 +195,38 @@ body {
   text-overflow: ellipsis; /* Handles long names */
 }
 /*<!--
+border: 1px solid #2980b9; /* Optional: adds a border 
+
+.icon-button {
+  background-image: url("Assets/Overview.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50px; /* Set height and width to match your image size 
+  width: 50px;
+  border: none;
+  cursor: pointer;
+  /* Hide text if any, or just use an aria-label for accessibility 
+}
+.icon-PatientsButton {
+  background-image: url("Assets/Patients.png") 0% 0% no-repeat padding-box;
+  background-position: center;
+  height: 50px; /* Set height and width to match your image size 
+  width: 50px;
+  border: none;
+  cursor: pointer;
+  /* Hide text if any, or just use an aria-label for accessibility 
+}
+
+background-repeat: no-repeat;
+
+
+flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+min-height: 100vh;
+
 text-align: left;
 justify-content: flex-start;
 flex-direction: column;

@@ -142,18 +142,26 @@ body {
   }
 }
 .rectangle-container {
+  /* Layout Properties */
   top: 18px;
   left: 18px;
   width: 1564px;
   height: 72px;
-  background-color: #ffffff; /* Sets a background color to make it visible */
-  padding: 20px; /* Optional: adds space between content and border */
-  margin: 10px; /* Optional: adds space outside the container */
-  color: #ffffff; /* Optional: styles the text color */
+  /* UI Properties */
+  background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
   border-radius: 70px;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    var(--unnamed-font-size-14) / var(--unnamed-line-spacing-19)
+    var(--unnamed-font-family-manrope);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-072635);
+  text-align: left;
+  font: normal normal bold 14px/19px Manrope;
+  letter-spacing: 0px;
+  color: #072635;
   opacity: 1;
 }
-
 .scroll-container {
   display: flex;
   overflow-y: auto;
@@ -166,8 +174,20 @@ body {
   left: 18px;
   width: 367px;
   height: 1054px;
-  border-radius: 16px;
+  /* UI Properties */
+  background: var(--unnamed-color-072635) 0% 0% no-repeat padding-box;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 3px;
   opacity: 1;
+  font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold)
+    var(--unnamed-font-size-14) / var(--unnamed-line-spacing-19)
+    var(--unnamed-font-family-manrope);
+  letter-spacing: var(--unnamed-character-spacing-0);
+  color: var(--unnamed-color-072635);
+  text-align: left;
+  font: normal normal bold 14px/19px Manrope;
+  letter-spacing: 0px;
+  color: #072635;
 }
 
 .circle-item {
@@ -189,10 +209,12 @@ body {
 .name-text {
   margin-top: 10px;
   font-size: 14px;
-  text-align: center;
+  text-align: left;
   width: 100%;
   overflow: hidden;
   text-overflow: ellipsis; /* Handles long names */
+  font-family: "Manrope", sans-serif;
+  font-weight: bold; /* or 700 */
 }
 /*<!--
 border: 1px solid #2980b9; /* Optional: adds a border 

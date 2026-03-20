@@ -49,12 +49,12 @@ function App() {
               className="circle-image"
             />
 
-            <p className="name-text">
+            <span className="name-text">
               {item.name}
               <p className="name-text">
                 {item.gender}, {item.age}
               </p>
-            </p>
+            </span>
           </div>
         ))}
       </div>

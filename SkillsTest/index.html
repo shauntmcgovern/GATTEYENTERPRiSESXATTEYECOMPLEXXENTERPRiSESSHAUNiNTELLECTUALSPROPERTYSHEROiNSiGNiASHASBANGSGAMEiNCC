@@ -10,7 +10,7 @@
       content="Web site created using create-react-app"
     />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="/src/styles.css" />
     <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -26,6 +26,44 @@
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
     <title>React App</title>
+    <style>
+      h5 {
+        font: normal normal bold 14px/19px Manrope;
+      }
+      .rectangle-container {
+        /* Layout Properties */
+        top: 18px;
+        left: 18px;
+        width: 1564px;
+        height: 72px;
+        /* UI Properties */
+        background: var(--unnamed-color-ffffff) 0% 0% no-repeat padding-box;
+        background: #ffffff 0% 0% no-repeat padding-box;
+        border-radius: 70px;
+        color: var(--unnamed-color-072635);
+        text-align: left;
+        font: normal normal bold 14px/19px Manrope;
+        letter-spacing: 0px;
+        color: #072635;
+        opacity: 1;
+      }
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .name-text {
+        margin-top: 10px;
+        font-size: 14px;
+        text-align: left;
+        width: 100%;
+        overflow: hidden;
+        text-overflow: ellipsis; /* Handles long names */
+        font-family: "Manrope", sans-serif;
+        font-weight: bold; /* or 700 */
+      }
+    </style>
   </head>
 
   <body>
@@ -35,11 +73,55 @@
 		element by its unique ID and populates everything inside it with dynamically generated content.
 		--also a container where front-end frameworks like React mount and manage their application's entire content-->
     <div classname="rectangle-container">
-      <p>
-        <img src="./TechCareTitleCard.jpg" top="30px" left"50px" width"211px"
-        height"548px" alt="Company Logo">
-      </p>
-    </div>
+      <img
+        src="./TechCareTitleCard.jpg"
+        top="30px"
+        left="50px"
+        width="211px"
+        height="48px"
+        alt="Company Logo"
+      />
+      <img
+        src="./Overview.png"
+        top="46px"
+        left="473px"
+        width="16px"
+        height="17px"
+        alt="Overview"
+      /><span class="name-text">Overview</span>
+      <img
+        src="./Patients.png"
+        top="46px"
+        left="473px"
+        width="16px"
+        height="17px"
+        alt="Patients"
+      /><span class="name-text">Patients</span>
+      <img
+        src="./SceduleButtonID.png"
+        top="46px"
+        left="473px"
+        width="16px"
+        height="17px"
+        alt="ScheduleButtonID"
+      /><span class="name-text">Schedule</span>
+      <img
+        src="./MessageFrontID.png"
+        top="46px"
+        left="473px"
+        width="16px"
+        height="17px"
+        alt="MessageFrontID"
+      /><span class="name-text">Message</span>
+      <img
+        src="./Transactions.png"
+        top="46px"
+        left="473px"
+        width="16px"
+        height="17px"
+        alt="Transactions"
+      /><span class="name-text">Transactions</span>
+    </p>
     <div id="root"></div>
     <!--this is where, the index file uses the React style framework of the css file and the javascript() file initself:-; in a single root classification 
 	and a ""div"" is a generic HTML container element that JavaScript is used to select, manipulate, create, and interact with dynamically.

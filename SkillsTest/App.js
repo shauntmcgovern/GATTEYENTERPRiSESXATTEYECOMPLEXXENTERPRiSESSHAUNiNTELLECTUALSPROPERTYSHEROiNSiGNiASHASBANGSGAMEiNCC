@@ -39,12 +39,6 @@ function App() {
 
   return (
     <Fragment>
-      <div classname="rectangle-container">
-        <img src="./TechCareTitleCard.png" />
-        TechCare Overview Patients Schedule Message Transactions
-        
-      </div>
-
       <div className="scroll-container">
         <h2>Patients</h2>
         {data.map((item) => (
@@ -55,9 +49,11 @@ function App() {
               className="circle-image"
             />
 
-            <p className="name-text">{item.name}</p>
             <p className="name-text">
-              {item.gender}, {item.age}
+              {item.name}
+              <p className="name-text">
+                {item.gender}, {item.age}
+              </p>
             </p>
           </div>
         ))}

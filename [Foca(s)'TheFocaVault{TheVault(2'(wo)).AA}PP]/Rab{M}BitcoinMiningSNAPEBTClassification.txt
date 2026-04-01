@@ -67,21 +67,21 @@ If you work with an application like 'Uber' that uses transactions of yours on a
 your hard earned 'pay dollars into a digital currency then of your choosing and see which digital front it is accepted. There is a reason that their is only one at the top. And first and foremost your getting the only digital currency that has
 'physical' atms out there in the real world and is the most widely-used one, at that. Not only is this safer but it means more because the reason the very reason that their is only one is because this is the Original'Founder of the 'digital currency'
 dating back to the very first online transactions, for example the popularity surrounding 'Paypal' and now one of the most popular applications is 'Venmo' and that is because you can complete two(2'(wo)':-;) different kinds of transactions with
-Venmo.BitcoinTransaction(); with your uploaded actual'USD, meaning real money and dollars($$') convert the most widely-used and the originator of the digital-currency, #Bitcoin'(BTC) into money you can transfer that to your checking account or
-debit card or convert your 'Venmo' balance into a 'Crypto.' You can transfer digital currency of one kind to another kind, that you are able to do for example with applications like 'Coinbase' or 'Binance'.
-You would be able to exchange a Doge Coin'(D) for an Ethereum(ETH') with those choices. Even though in terms an ETH is worth more than a Doge'(D) it still equates to the same dollar.
+Venmo.BitcoinTransaction(); with your uploaded actual'USD, meaning real money and dollars($$') convert to the most widely-used and the originator of the digital-currency, --#Bitcoin'(BTC)-- then back into money you can then transfer that to your personal 
+checking account or be'it debit card or convert your entire 'Venmo' balance into a 'Crypto.' You can transfer digital currency of one kind to another kind, that you are able to do for example with applications like 'Coinbase' or 'Binance'.
+You would be able to exchange a Doge Coin'(D) for an Ethereum(ETH') with those choices. Even though in terms an ETH is worth more than a Doge'(D) it still equates to the same currency and dollar.
 
 1 Dollar == 10 Doge, 10 Doge == 0.00004403 ETH(4 x 10^-5), .00004 ETH == 0.0000012224526992Bitcoin$'(1.2 x 10^-6)
 $1 == 10D == (4 X 10^-5)ETH'-->40,000'gigawei == (1.2 x 10^-6)BTC'-->120'sats
 
 For example you convert an amount of money to one crypto, then convert that crypto to another crypto it would still be the same amount of $USD. You have a digital currency, so you can have all of the popular kinds you want and
-what that would do would equate to real'Dollars depending on your country that you reside in and its specific currency. We just got rid of the penny here in the 'US' after a lengthy stay. So to further explain, what this is.
+what that would would then equate to real'Dollars depending on your country that you reside in and its specific currency. We just got rid of the penny here in the 'US' after a lengthy stay. So to further explain, what this is.
 What you are in fact looking at is this, a private server farm. A server farm that is running multiple applications at one-time, effectively checking all of the transactions making sure that each 'user' of the application can buy what it
-wants to buy and it goes through with Bitcoin and if the user_profile has the correct amount saved for example that is what 'Venmo' does for each and every user that it has--'Venmo' makes sure you have correct balance of your 'digital currency'
-in your 'Venmo' account so you can use it as you please. Going on, 'Bitcoin' mining is popular because eventually if you follow along with that through a developer cycle and start speaking with other 'Miners' on @Slack you would eventually start to
-quality and assurance what your doing is testing an example application that uses the 'digital currency' or factually you are working for one of the elected 'Bitcoin' companies, Doge Bitcoin and Ethereum are by far the most popular.
-Even then I am hearing from the senior developers it would only net you '2500-3k' per year as you 'Mine'. So churning, money from using a 'digital currency' is true in this sense but just to clarify 'out of thin air' is not.
-You must have applications or work for one of the companies and even then it isn't limitless.
+wants to buy and it goes through with the user's Bitcoin and if the user_profile has the correct amount of bitcoin amount saved for example that is what 'Venmo' does for each and every user that it has--'Venmo' makes sure you have correct balance of
+your 'digital currency' in your 'Venmo' account so you can use it as you please and it also bitcoin mines for example the conversion of USD to 'Bitcoin.' Going on, this 'Bitcoin' mining, like Venmo does for you, is popular because eventually if you follow
+along with that through a developer cycle and start speaking with other 'Miners' on @Slack you would eventually start to work a project's quality and assurance. And what your doing is testing an example application that uses the 'digital currency' or factually
+you are working for one of the elected 'Bitcoin' companies, Doge Bitcoin and Ethereum are by far the most popular. Even then I am hearing from the senior developers it would only net you '2500-3k' per year as you 'Mine'.
+So churning, money from using a 'digital currency' is true in this sense but just to clarify 'out of thin air' is not. You must have applications or work for one of the companies and even then it isn't limitless.
 
 //'I'm on the Verge(0') of something that I just know is really'really good idea and trans'action:09
 --($')$/'Money has yet'yet to be determined, validated and justified upon the digital surface and identity. It has in the real world it has upon your coin it has upon the dollars, the very money that is printed, in each of our worlds countries.
@@ -172,7 +172,8 @@ using Ether (ETH) for network fuel, making them distinct in purpose, technology 
 available centers, it looks strictly just #'Bitcoin the leader in digital currency known as the gold-extent in the online'world, so that was also part of the situation'decision--can I buy and use this digital'currency
 and checked by blockers to verify transactions and mining-techniques in the real'world and then use it. Can I just go up to an atm and start withdrawing part of my coin, but what if it isn't Bitcoin and does that need
 a specifity of where and when you can use it. Shouldn't it be general like another world's lead by country specific currency is. Is that what we are setting(am) up??:0')::>.?/'{w}?/=={Q+?/s'}e/:?'smmwms:\'{w}e'--
---the term 'Bitcoin Mining:09/s't"-'+/='(+/=)--f/0')-technically you cannot just setup a Mine(" and plunge for Bitcoin"') you need an application you need a company you can even make your own coin and haveittakeoff and not only just that but mining alone doesn't exist"'):)09')
+--the term 'Bitcoin Mining:09/s't"-'+/='(+/=)--f/0')-technically you cannot just setup a Mine(" and plunge for Bitcoin"') you need an application you need a company you can even make your own coin and haveittakeoff and not
+only just that but mining alone doesn't exist"'):)09')
 https://en.wikipedia.org/wiki/List_of_cryptocurrencies'https://en.wikipedia.org/wiki/List_of_cryptocurrencies
 -((Bitcoin))(the most fam'ous and Original)
 Dogecoin popularized by one of the most famous Business Entrepreneurs that there are./S#P't

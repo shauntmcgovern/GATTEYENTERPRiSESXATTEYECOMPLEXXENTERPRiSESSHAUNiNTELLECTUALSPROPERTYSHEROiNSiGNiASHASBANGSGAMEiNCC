@@ -1,4 +1,4 @@
-# ControlSpace - ControlSpaceee[/~']@F@F
+# ControlSpace - ControlSpaceee[/~']@F@F'DirectWord -/+/[=]'+/[=]'{Control}'Control Center:809
 *'[0-")-__"-'++2?/_"'--'+"-'2?/_0-")'+'2?/_=='+/{'}[PIO((P));]:-;L: MNIO<P>;'*
 * I have now '[]completed, yes sir[]''""("\')' now*now*now done*(/did?/"w'"'?/) 3,Three years of work.
 For I modeled this after all of the People Nation, music property Heroes && Insignias.
@@ -139,4 +139,15 @@ I'm guessin this will last for about 14-20 days until Twitter proceeds to give m
 * Larry Na Hoover Sr.
 * Copyrighted by Shaun Terence McGovern and Shape of the Female Inc., LLC.
 * In(fact) every .txt file has each its own description and what field of thought, concise, and company or what selected intriguing business entrepreneur using his education and community standing for good, was()z)0:;   "''🎄🎄'AA'(   )
-'PP'QQ'TT  :09/(save schem*)/88(88)*'/{P}Q/T
+* This is now summarizing five years of work. Init' you will find the complete concept. What it is termed is this, an Intellectual Property Hero and iNSiGNiA, yes. It is one of the holy 
+  grails of the educational thought. The academic circle. Whereit. You will also find the self-generating horse, the fountain of generation of one's own brand for example and then the constant 
+  investment which'of (which):0)":-;?/'sadly' evades us. Microwave Dinners'Cars'Doors. Here are the pieces, may you see it with new eyes' and that of pruned old'yet
+  ((young)):09-')':8{99(')}::0')::-?/')"::-/:}+/[=]'In this described, since Shaun was removed from his Twitter' in both regards. His 'X'. This is done. The Foca Department' has moved
+  onto greener pasture and beit'--Tumblr which predated 'X'posts:09'. So that being said Shaun' has lost his link bubbles his intertwining entertangling web of company 'Handles' and significant
+  company renhancement. Which lead to this. However, what you get instead of this is this instead. More of a cleaner of an interface and a more straight forward foca albiet experience.
+  It will switch the attention over to the Rab{M|"}'s hosted on my public.Facebook.Account(); which is my rich business partners':809 idea alone, we see ar')e each busin)'ess partrtners:09:09.
+  We-rich from this'). Which every angle you which you would like to take it. If you are more of a business professional, if you are more of an 'Artist which is God-(Given):0 we have it,
+  then become one of the 'Intellectual Property Hero and iNSiGNiAs' sobeit')which in turn, Shaun sold to Hashbang completely and brought his success of
+  GATEY'GATEY ENTERPRISES':E88(9__0'0)')with him'with him::-)"?/! An intellectual holy grail:809('):809;
+'🦉🦉
+'PP'QQ'TT  :09/(save schem*)/88(88)*'/{P}Q/T'A{A}'A{A}'A{A}

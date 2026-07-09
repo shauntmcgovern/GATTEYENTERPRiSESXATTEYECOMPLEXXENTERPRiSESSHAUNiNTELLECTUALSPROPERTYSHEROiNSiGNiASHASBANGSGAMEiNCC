@@ -3,7 +3,95 @@
 [@Links]:/:
 1.	https://en.wikipedia.org/wiki/RollerCoaster_Tycoon
 2.	https://atari.com/pages/rollercoaster-tycoon
-3.	
+3.	https://en.wikipedia.org/wiki/Assembly_language (/*'https://en.wikipedia.org/wiki/X86_assembly_language'*/)
+'Game Development'  '{P}
+'X'   @coastertycoons
+'Face'   https://www.facebook.com/rollercoastertycoon/
+'tik'   https://www.tiktok.com/@rollercoastertycoons('Which is showing a good amount of the 'Classsic' ver0ion):'PST09')
+'Yo{u}'   https://www.youtube.com/user/RollerCoasterTycoon/videos
+'/GameDevelopment'
+(/'So I glanced over at 'Github' nothing was working over at that website, sometimes you there's a codebase, if the game is old enough. The thing about this 'game' was this it was programmed with a low-level(/'wiki"close to the hardware") programming functioning 
+language known as Assembly which was one of the original languauges and some of the 'DirectX' advantages used 'C':0XC'0):09;/;'Programming. This is assembly(x86) programming language. (Description of the processes, in real-time(like user interactions)
+or 'static'/in similarity 'restful)
+; ==============================================================================
+; ROLLERCOASTER TYCOON SIMULATION CONCEPT: UPDATING GUEST STATS
+; ==============================================================================
 
+.386                           ; Enable Intel 80386 instructions (32-bit registers)
+.MODEL FLAT, C                 ; Use flat memory model
+.DATA
+
+; Define a structured record for a single park guest
+GUEST_STRUCT STRUC
+    GuestID    DW ?            ; 2 bytes: Unique ID
+    PosX       DW ?            ; 2 bytes: X tile coordinate
+    PosY       DW ?            ; 2 bytes: Y tile coordinate
+    Cash       DW ?            ; 2 bytes: Cash remaining (in cents)
+    Nausea     DB ?            ; 1 byte:  Nausea level (0 - 255)
+    Happiness  DB ?            ; 1 byte:  Happiness level (0 - 255)
+GUEST_STRUCT ENDS
+
+MAX_GUESTS  EQU 1000           ; Simulate up to 1000 guests
+GuestArray  GUEST_STRUCT MAX_GUESTS DUP (<>) ; Allocate array in memory
+ParkCash    DD 500000          ; Global park treasury (e.g., $5000.00)
+
+.CODE
+
+; ------------------------------------------------------------------------------
+; ROUTINE: UpdateGuestAndFinances
+; PURPOSE: Loop through guests, decrease cash, increase park cash, increase nausea
+; ------------------------------------------------------------------------------
+UpdateGuestAndFinances PROC
+    PUSH EBP                   ; Preserve base pointer
+    MOV EBP, ESP               ; Set up stack frame
+    PUSH ESI                   ; Preserve ESI (source index register)
+    PUSH EBX                   ; Preserve EBX (base register)
+
+    XOR ECX, ECX               ; ECX = 0 (Loop Counter / Guest Index)
+    LEA ESI, GuestArray        ; ESI points to start of GuestArray
+
+GuestLoop:
+    CMP ECX, MAX_GUESTS        ; Have we checked every guest?
+    JGE ExitLoop               ; If ECX >= 1000, exit loop
+
+    ; Check if guest has money left for a ride ($2.00 or 200 cents)
+    MOV BX, [ESI + GUEST_STRUCT.Cash]
+    CMP BX, 200                
+    JL NextGuest               ; Skip if guest has less than $2.00
+
+    ; Deduct money from guest
+    SUB BX, 200                
+    MOV [ESI + GUEST_STRUCT.Cash], BX
+
+    ; Add money to global park treasury
+    ADD ParkCash, 200
+
+    ; Increase guest Nausea level due to riding a coaster
+    MOV AL, [ESI + GUEST_STRUCT.Nausea]
+    ADD AL, 15                 ; Add nausea points
+    JC MaxNausea               ; If addition overflows (>255), cap it
+    MOV [ESI + GUEST_STRUCT.Nausea], AL
+    JMP NextGuest
+
+MaxNausea:
+    MOV BYTE PTR [ESI + GUEST_STRUCT.Nausea], 255 ; Hard ceiling for nausea
+
+NextGuest:
+    ADD ESI, TYPE GUEST_STRUCT ; Advance pointer to next guest structure
+    INC ECX                    ; Increment loop index counter
+    JMP GuestLoop              ; Repeat loop
+
+ExitLoop:
+    POP EBX                    ; Restore registers
+    POP ESI
+    MOV ESP, EBP
+    POP EBP
+    RET                        ; Return to caller
+UpdateGuestAndFinances ENDS
+END
+
+
+Playing 'Roller Coaster Tycoon' Touch over the 'Roller Coaster Tycoon' classic just what did they development teams behind this get right and which of which, do you Shaun like best. Best, about the 'Touch' version versus the 'Classsic' version. TobetoldofM')e:09/;'
+Once again, the immersion. The nostalgia. Which leaves, I'), with the remaining effec')t. 'P{B}SATE:-')':; So how well can a user effectively replicate a beloved amusement park be it 'Waters' or 'Dry':09
 
 ]]+/[=]'L/@PAS'@{TW/@"{E}-')"-':-;:-;::]

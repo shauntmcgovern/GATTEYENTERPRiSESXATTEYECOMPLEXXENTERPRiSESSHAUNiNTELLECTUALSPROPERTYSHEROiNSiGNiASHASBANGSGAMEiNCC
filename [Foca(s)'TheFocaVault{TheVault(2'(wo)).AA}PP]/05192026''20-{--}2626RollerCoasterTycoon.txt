@@ -10,8 +10,9 @@
 'tik'   https://www.tiktok.com/@rollercoastertycoons('Which is showing a good amount of the 'Classsic' ver0ion):'PST09')
 'Yo{u}'   https://www.youtube.com/user/RollerCoasterTycoon/videos
 '/GameDevelopment'
-(/'So I glanced over at 'Github' nothing was working over at that website, sometimes you there's a codebase, if the game is old enough. The thing about this 'game' was this it was programmed with a low-level(/'wiki"close to the hardware") programming functioning 
-language known as Assembly which was one of the original languauges and some of the 'DirectX' advantages used 'C':0XC'0):09;/;'Programming. This is assembly(x86) programming language. (Description of the processes, in real-time(like user interactions)
+(/'So I glanced over at 'Github' nothing was working over at that website, sometimes you there's a codebase, if the game is old enough. The thing about this 'game' was
+this it was programmed with a low-level(/'wiki"close to the hardware") programming functioning language known as Assembly which was one of the original languauges and some of the 'DirectX' advantages
+used 'C':0XC'0):09;/;'Programming. This is assembly(x86) programming language. (Description of the processes, in real-time(like user interactions)
 or 'static'/in similarity 'restful)
 ; ==============================================================================
 ; ROLLERCOASTER TYCOON SIMULATION CONCEPT: UPDATING GUEST STATS
@@ -91,7 +92,12 @@ UpdateGuestAndFinances ENDS
 END
 
 
-Playing 'Roller Coaster Tycoon' Touch over the 'Roller Coaster Tycoon' classic just what did they development teams behind this get right and which of which, do you Shaun like best. Best, about the 'Touch' version versus the 'Classsic' version. TobetoldofM')e:09/;'
-Once again, the immersion. The nostalgia. Which leaves, I'), with the remaining effec')t. 'P{B}SATE:-')':; So how well can a user effectively replicate a beloved amusement park be it 'Waters' or 'Dry':09
+Playing 'Roller Coaster Tycoon' Touch over the 'Roller Coaster Tycoon' classic just what did they development teams behind this get right and which of which, do you Shaun like best.
+Best, about the 'Touch' version versus the 'Classsic' version. TobetoldofM')e:09/;' Once again, the immersion. The nostalgia. Which leaves, I'), with the remaining effec')t. 'P{B}SATE:-')':;
+So how well can a user effectively replicate a beloved amusement park be it 'Waters' or 'Dry':09
 
-]]+/[=]'L/@PAS'@{TW/@"{E}-')"-':-;:-;::]'{ABTM}
+Briefly go over how the assembly code was used to program the original and how it has transitioned to today. The available https://github.com/openrct2/openrct2 which is programmed all in (C++)
+The current outlooks and still the classic is offered on mobile and other platforms. The common reflect. Then incorporate the prior foca about hasbro with this one because that is who published the original
+and it was done in Assembly code for example and it was one of the original code'works. The reason it was more straight forward is because graphical enhancement and media has been advanced and the programming 
+languages needed to follow suit'A{S}T
+]]+/[=]'L/@PAS'@{TW/@"{E}-')"-':-;:-;::]'{ABTM} 

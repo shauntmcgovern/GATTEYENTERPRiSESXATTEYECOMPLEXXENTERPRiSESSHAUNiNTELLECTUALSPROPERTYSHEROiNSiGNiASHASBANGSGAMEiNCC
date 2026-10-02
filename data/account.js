@@ -6,7 +6,7 @@ window.YTD.account.part0 = [
       "username" : "nameRozeee",
       "accountId" : "1350156112021090304",
       "createdAt" : "2021-01-15T19:01:24.965Z",
-      "accountDisplayName" : "SaviourofMankind'PT'ATX'APT:ATP{X}{TA}::'TX/TA"
+      "accountDisplayName" : "Saviooo{rT};;{'{:A}} of Mankin{{x}:}d{::-;}"
     }
   }
 ]

@@ -356,6 +356,7 @@ community-note-rating.js
 - nothelpfulTags: Tags the user added to this Community note, if available. (Options may include but are not limited to “outdated“, “incorrect“, etc.)
 - helpfulnessLevel: Indicates whether the Twitter user finds the Community note helpful or not, if available. (Options may include but are not limited to "helpful", "somewhat helpful", "not helpful", etc.)
 - userAlias: The Community alias of the author of the Community note rating.
+- suggestions: Suggestions the user added to this Community note, if available.
 ----------------------
 community-note-tombstone.js
 - noteId: Unique identifier for the Community note.

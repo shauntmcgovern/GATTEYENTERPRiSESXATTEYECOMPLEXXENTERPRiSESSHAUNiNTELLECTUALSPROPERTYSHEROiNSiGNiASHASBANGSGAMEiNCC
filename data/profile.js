@@ -2,12 +2,12 @@ window.YTD.profile.part0 = [
   {
     "profile" : {
       "description" : {
-        "bio" : "Ga{tA}tttttxey🟥🟪:🟥('GA{SS.S):🟥'-;'{Ext'Ext\\PX(8}--(f/l)🟥oze I{HeroP}i.i./LCT{T}iT-:089:Air'Comm{ut}\n'SLZ:09:09:JUCKxeS('WRLL{D}-;WiDT{E}.:89('AP{BSx}'BT{A}",
-        "website" : "https://t.co/f1RCJljnN9",
+        "bio" : "GAT{'(TE{B}):::-')'0;}Y{Y}::-; :'000{(BX')}{B'{T{TX}}AC::-:':):'(z'C')':::-'P$A{T:|'};';-$-/'$/'::-;;?:-/:\"}\\;'@Microsoft'@Microsoft'@Microsoft'@Microsoft::{XY}",
+        "website" : "https://t.co/SeUXH9t2sT",
         "location" : "Chicago, IL"
       },
-      "avatarMediaUrl" : "https://pbs.twimg.com/profile_images/2014803680755605505/3h6Vhkx0.jpg",
-      "headerMediaUrl" : "https://pbs.twimg.com/profile_banners/1350156112021090304/1768510728"
+      "avatarMediaUrl" : "https://pbs.twimg.com/profile_images/2077134642155532288/jDEwqvtw.jpg",
+      "headerMediaUrl" : "https://pbs.twimg.com/profile_banners/1350156112021090304/1790194193"
     }
   }
 ]

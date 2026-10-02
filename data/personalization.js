@@ -6,6 +6,10 @@ window.YTD.personalization.part0 = [
           {
             "language" : "English",
             "isDisabled" : false
+          },
+          {
+            "language" : "English (United States)",
+            "isDisabled" : false
           }
         ],
         "genderInfo" : {

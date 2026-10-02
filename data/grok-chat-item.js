@@ -980,5 +980,48 @@ window.YTD.grok_chat_item.part0 = [
       },
       "message" : "- The post by @nameRozeee claims mixing crack cocaine with alcohol or marijuana stabilizes effects, but fits a pattern of erratic, low-engagement content from an account posting stream-of-consciousness rants on unrelated topics like celebrities and health.\n- Mixing crack with alcohol forms cocaethylene, a metabolite that extends high duration while raising toxicity, overdose risk, and heart damage, as shown in a 2022 PMC study on cocaine-ethanol interactions.\n- Combining crack with marijuana can lower peak cocaine levels but increases heart rate and addiction potential, per a 1987 PubMed study on human interactions and 2023 research in Drug and Alcohol Dependence."
     }
+  },
+  {
+    "grokChatItem" : {
+      "postIds" : [
+        "2089781860960215286"
+      ],
+      "grokMode" : {
+        "value" : "1",
+        "name" : "Normal",
+        "originalName" : "NORMAL",
+        "annotations" : { }
+      },
+      "accountId" : "1350156112021090304",
+      "chatId" : "2089782375324749855",
+      "createdAt" : "2026-08-18T18:31:59.579Z",
+      "sender" : {
+        "value" : "1",
+        "name" : "User",
+        "originalName" : "USER",
+        "annotations" : { }
+      },
+      "message" : "https://x.com/nameRozeee/status/2089781860960215286"
+    }
+  },
+  {
+    "grokChatItem" : {
+      "grokMode" : {
+        "value" : "1",
+        "name" : "Normal",
+        "originalName" : "NORMAL",
+        "annotations" : { }
+      },
+      "accountId" : "1350156112021090304",
+      "chatId" : "2089782375324749855",
+      "createdAt" : "2026-08-18T18:31:59.579Z",
+      "sender" : {
+        "value" : "2",
+        "name" : "Agent",
+        "originalName" : "AGENT",
+        "annotations" : { }
+      },
+      "message" : "- @nameRozeee shares career advice on coding bootcamps at UChicago and Northwestern University, noting potential placement with senior-led development teams for practical experience.\n- The post encourages self-taught developers to study data structures and join software engineering teams, while advising students at for-profit schools like DeVry to demand job setup guarantees during and after programs.\n- The author references their own CS degree from Northeastern Illinois University (NEIU) paired with a GitHub portfolio focused on web development and codebase project engineering."
+    }
   }
 ]

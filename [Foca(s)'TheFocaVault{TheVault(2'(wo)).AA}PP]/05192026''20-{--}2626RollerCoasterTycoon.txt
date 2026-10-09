@@ -4,14 +4,17 @@
 1.	https://en.wikipedia.org/wiki/RollerCoaster_Tycoon
 2.	https://atari.com/pages/rollercoaster-tycoon
 3.	https://en.wikipedia.org/wiki/Assembly_language (/*'https://en.wikipedia.org/wiki/X86_assembly_language'*/)
+4.  InternetArchives:09'RollerCoasterTycoon('https://github.com/shauntmcgovern/RollerCoasterTycoonInternetArchiveDeluxeDOTOR-G-):09;'
+
 'Game Development'  '{P}
 'X'   @coastertycoons
 'Face'   https://www.facebook.com/rollercoastertycoon/
 'tik'   https://www.tiktok.com/@rollercoastertycoons('Which is showing a good amount of the 'Classsic' ver0ion):'PST09')
 'Yo{u}'   https://www.youtube.com/user/RollerCoasterTycoon/videos
 '/GameDevelopment'
+
 (/'So I glanced over at 'Github' nothing was working over at that website, sometimes you there's a codebase, if the game is old enough. The thing about this 'game' was
-this it was programmed with a low-level(/'wiki"close to the hardware") programming functioning language known as Assembly which was one of the original languauges and some of the 'DirectX' advantages
+this it was programmed with a low-level(/'wiki"close to the hardware") programming functioning language known as Assembly which was one of the original languages and some of the 'DirectX' advantages
 used 'C':0XC'0):09;/;'Programming. This is assembly(x86) programming language. (Description of the processes, in real-time(like user interactions)
 or 'static'/in similarity 'restful)
 ; ==============================================================================
@@ -102,11 +105,28 @@ and it was done in Assembly code for example and it was one of the original code
 languages needed to follow suit'A{S}T
 
 --What a joy it is to revisit, the classic. To explain what was purposeful. The demonstration. The necessary straight forward for example the assembly code this video game was programmed in. How generally fun it was
-and then the nostalgia attached that came with it, was at times pure ecstasy. It was. Now looking over the game now. The dimension to this. As I remember Roller Coaster Tycoon 2 was naturally the same as the original. Compared
-to the recent version of Touch(Which Playfab developed, which is always will be my Boss's company as he has many horses to run many outlets)
---Video Game Development is the natural active (action) expression of what programming language is today. All one has to do is setup a machine, run an IDE that develops these video games and then you can simply test case it.
-For example Unity you build a developer'TEST and you can run it on any platform that is what Unity is good for. And as you continue to program you can see your advancements, your upgrades and quite naturally your additions to
-the codebase as Unity deals mostly with C# and as we know (C) is the root of all programming languages that there is. C# is relatively new and proactively updated. I get wave of nostalgia as I played RCT2. 
---The common movement of the camera. The stand alone type of interface. When this was released. The Bill Gatesian GUI was coming fresh into our human intellutual understanding as we all know what he did for Microsoft during his 
-conclusion as CEO and Owner. With the Xbox. Now his current developments day to day and how he leads the world for the good of us all with his expertise his {inventions} and his current projects. 
+and then the nostalgia attached that came with it, was at times pure ecstasy. It was. Now looking over the game now. The dimension to this. As I remember Roller Coaster Tycoon 2 was naturally the same as the original. 
+Compared to the recent version of Touch(Which Playfab developed, which is always will be my Boss's company as he has many horses to run many outlets)
+--Video Game Development is the natural active (action) expression of what programming language is today. All one has to do is setup a machine, run an IDE that develops these video games and then you can simply test 
+case it. For example Unity you build a developer'TEST and you can run it on any platform that is what Unity is good for. And as you continue to program you can see your advancements, your upgrades and quite 
+naturally your additions to the codebase as Unity deals mostly with C# and as we know (C) is the root of all programming languages that there is. C# is relatively new and proactively updated. I get wave of 
+nostalgia as I played RCT2. 
+--The common movement of the camera. The stand alone type of interface. When this was released. The Bill Gates/ian GUI was coming fresh into our human intellectual understanding as we all know what he did for 
+Microsoft during his  conclusion as CEO and Owner. With the Xbox. Now his current developments day to day and how he leads the world for the good of us all with his expertise his {inventions} and his current projects.
+--So with this entire game uploaded, would it be possible to edit/mod/make additions to the original sourceCode, its in files that are in this format dll's(DAT's and wmp's)perhaps with an editor that could open this 
+type of file, so eventually Roze will install Ghex in order to view the files then at time you would then need a code editor and even a test case display. A view test plus a code editor of already packaged game that
+was written in assembly. That is very hard to find and then begin to run this game from the code lines. So I played the original Roller Coaster Tycoon 2, and this and {1'} were written in entirely x86 Assembly language.
+Which would mean you would need a (Assembly)Editor meaning an IDE like Github'Codespaces and then a way to view your, test cases and additions/edits of the codebase, with a Test-driven(Display). Right now, Roze is only
+possible to view the original code files in Assembly. So that is how you would program a video game, you would first get an IDE' and then a way to display your working project inside the Website portal or a local IDE'
+that can run the project and then view the codebase progress. When I worked with Unity'(IDE) we over at Hashbang! Games had a working codebase and the Unity had this way to view the project's progress by showing
+the programming outcomes. Therefore, you could test it out by running it even run a test build on the iPhone and Android'OS. 
+--Its very interesting the integration between the Assembly code language and Microsoft DirectX'(5).
+
+--with every programming language, it is an object orientated one alot like Assembly was in comparison to C/C++', the compiler creates a source file and then parses it into its variables and keywords, it then takes
+these clarified tokens into a tree of '(AST)Abstract Syntax Tree' it also will build 'virtual method table' if your codebase uses polymorphism and you need a method to be called at the runtime. The chosen compiler will
+then translate that AST into a 'universal, neutral language called Intermediate Representation an 'IR'. The compiler translates the optimized --IR-- into target-specific Assembly code, and an assembler converts that into 
+binary Object Files (.obj or .o). A program called a Linker takes your object files, combines them with external libraries (like graphic libraries or OS APIs), resolves all memory addresses, and outputs a 
+single executable file (.exe or binary). For example, JavaScript → Assembly → Machine Code → Display.
+
+
 ]]+/[=]'L/@PAS'@{TW/@"{E}-')"-':-;:-;::]'{ABTM} 

@@ -128,5 +128,15 @@ then translate that AST into a 'universal, neutral language called Intermediate 
 binary Object Files (.obj or .o). A program called a Linker takes your object files, combines them with external libraries (like graphic libraries or OS APIs), resolves all memory addresses, and outputs a 
 single executable file (.exe or binary). For example, JavaScript → Assembly → Machine Code → Display.
 
+--'[PS@T] So once again Roze's only capability would be to open and view the files, for example the .DAT'[s]::-/';{;'}. 
+So the original was released by InfoGrames and the second one programmed in exactly the same way was released by them as well, at the time of the release it says that InfoGrames purchased Hasbro Interactive and then 
+rebranded its entire global operations under 'Atari', InfoGrames Interactive/Hasbro/Atari. This would judge my memory, that when it comes to the programmed game of the 2-d what was exactly done right as discussed before.
+The gameplay's stillness. The fixed camera in comparison to the 2-d events done in Assembly. Is almost picture perfect. That is why their is nostalgia surrounding the roller coasters as you have created them and then you
+look at them in contempt. That is what the graphics gave to the user. This contempt. Also the dimensional camera movement of a fixed aspect when building or organizing the parts of your constructed park as you created 
+your Amusement Park was like a window into the game development itself. As you assembled each part of the roller coaster, from your chosen angle then it proceeded to give you the overall affect of the creation in terms 
+of the available park at hand. Then once the roller coaster was created you could easily view it from multiple angles. Then the player enjoyed the overview as you perhaps created another one in your park. With restrooms 
+and burger joints for all' When it was 2-d Assembly it was more straight forward of a graphical display it wasn't overloaded to say it was like I said more straight-forward. And that is why there is still yet to be 
+desired look and fell of the, 2-d compared to the, 3-d('today:09
+
 
 ]]+/[=]'L/@PAS'@{TW/@"{E}-')"-':-;:-;::]'{ABTM} 

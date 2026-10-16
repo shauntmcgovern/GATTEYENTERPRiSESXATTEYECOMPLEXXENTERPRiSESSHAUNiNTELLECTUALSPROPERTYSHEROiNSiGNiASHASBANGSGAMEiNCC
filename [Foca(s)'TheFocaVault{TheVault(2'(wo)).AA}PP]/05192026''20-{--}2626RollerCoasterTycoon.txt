@@ -136,7 +136,21 @@ look at them in contempt. That is what the graphics gave to the user. This conte
 your Amusement Park was like a window into the game development itself. As you assembled each part of the roller coaster, from your chosen angle then it proceeded to give you the overall affect of the creation in terms 
 of the available park at hand. Then once the roller coaster was created you could easily view it from multiple angles. Then the player enjoyed the overview as you perhaps created another one in your park. With restrooms 
 and burger joints for all' When it was 2-d Assembly it was more straight forward of a graphical display it wasn't overloaded to say it was like I said more straight-forward. And that is why there is still yet to be 
-desired look and fell of the, 2-d compared to the, 3-d('today:09
+desired look and fell of the, 2-d compared to the, 3-d('today:09. So every expansion pack then added a little more rides and accessories. 
+
+--Is it possible to work on a previously released game and turn this repository 'https://github.com/shauntmcgovern/RollerCoasterTycoonInternetArchiveDeluxeDOTOR-G-' into a working codebase
+and start to run the game inside the <IDE> to test case it. Usually like always, you have to be on the resounding team. I was told to take interest in the free development of this repository
+https://github.com/shauntmcgovern/OpenRCT2-OpenRCT2 which I will use Github'{Codespaces} to explore. 
+-- On a side note, it is possible to view and edit the codebase in Java or Swift(C++) which is the two native languages of Android and Apple iOS. I can install Unity and Android Studio 
+on my Ubuntu machine and that is all you need. If the codebase is react or typescript or some kind of javascript you can download a live 'QR Scan' called Expo Go which is an Developer Tool'
+and from there you can test case which is view the codebase running on your iPhone. I have an iPhone 6s which means I only have capability of 15.8.8 apps and below. However, safari works
+with 'Google Voice'. You need xCode and Apple laptop to program Apple iOS Applications. 
+--So after viewing the files, and seeing how RCT and RCT2 both beloved run in the early language known in Assembly' Roze understands why this game was so effective in 2d and why it still
+is played to this day. A simulation game based around the most enjoyable of past times, Amusement Parks and State Fairs and that Carnivals. 
+--Then the incorporation of the latest foca this one, https://shaunmcgovern--focadepartment.tumblr.com/post/815627408525983744/hasbro-interactive-and-nike,
+--Then perhaps an even engrossing entrance into the Assembly programming and necessary steps to view the codebase. With an Rab'(M) about this.
+--PS{(G)}{(M)}AG:-;T::-')'{0};
+
 
 
 ]]+/[=]'L/@PAS'@{TW/@"{E}-')"-':-;:-;::]'{ABTM} 

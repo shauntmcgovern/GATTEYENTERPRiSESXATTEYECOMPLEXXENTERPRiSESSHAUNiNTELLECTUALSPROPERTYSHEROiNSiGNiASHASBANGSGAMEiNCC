@@ -139,8 +139,263 @@ and burger joints for all' When it was 2-d Assembly it was more straight forward
 desired look and fell of the, 2-d compared to the, 3-d('today:09. So every expansion pack then added a little more rides and accessories. 
 
 --Is it possible to work on a previously released game and turn this repository 'https://github.com/shauntmcgovern/RollerCoasterTycoonInternetArchiveDeluxeDOTOR-G-' into a working codebase
-and start to run the game inside the <IDE> to test case it. Usually like always, you have to be on the resounding team. I was told to take interest in the free development of this repository
-https://github.com/shauntmcgovern/OpenRCT2-OpenRCT2 which I will use Github'{Codespaces} to explore. 
+and start to run the game inside the <IDE> to test case it. Usually like always, you have to be on the resounding team.
+
+--I was told to take interest in the free development of this repository
+https://github.com/shauntmcgovern/OpenRCT2-OpenRCT2'(this codebase is how it works with Windows, Android, iOS and Linux with the original game RCT2)'which I will use Github'{Codespaces} to explore. 
+OpenRCT2 is a C++ 'wrapper' and what it does if you have for instance this iso image file from 'Internet Archive' https://archive.org/details/roller-coaster-tycoon-2-triple-thrill-pack
+Since (I)'Roze has an Ubuntu Linux Machine, sluggish(trash'find from my buddy A'aron):0{9};
+
+Google--A{i}Response--(binary file, original Assembly')nasm
+; Subroutine at address 0x0045B2C0
+; Expects Park Status pointer in ESI
+    _check_park_entry_fee:
+        mov     eax, [esi + 24]       ; Load base park entrance fee into EAX
+        cmp     byte ptr [esi + 8], 1 ; Check if 'Free Entry' campaign byte is true (1)
+        jne     .apply_fee            ; If not equal to 1, jump to .apply_fee
+        xor     eax, eax              ; If campaign is active, zero out EAX (Fee = $0)
+        ret                           ; Return
+    
+    .apply_fee:
+        mov     [esi + 32], eax       ; Store calculated fee into the current active fee memory slot
+        ret                           ; Return
+-
+c
+    // Mapping out the exact memory layout of the original game's structures
+    struct OriginalParkData {
+        uint8_t unknown_padding[8];
+        uint8_t marketing_campaign_type; // Offset 8
+        uint8_t more_padding[15];
+        uint32_t base_entrance_fee;      // Offset 24
+        uint32_t active_entrance_fee;    // Offset 32
+    };
+    
+    // Forcing a C function to override the exact hex address in the original exe
+    void openrct2_check_park_entry_fee(OriginalParkData* park) {
+        if (park->marketing_campaign_type == 1) {
+            park->active_entrance_fee = 0;
+        } else {
+            park->active_entrance_fee = park->base_entrance_fee;
+        }
+    }
+-
+    cpp
+    #include <openrct2/Park.h>
+    #include <openrct2/marketing/MarketingManager.h>
+    
+    namespace OpenRCT2::Park
+    {
+        /**
+         * Calculates the current required entrance fee for a guest based on active promotions.
+         */
+        money32_t GetCurrentEntranceFee(const ParkContext& context)
+        {
+            auto* marketingManager = context.GetMarketingManager();
+            
+            // Check if the specific "Free Entry" voucher banner is currently running
+            if (marketingManager->IsCampaignActive(CampaignType::FreeParkEntry))
+            {
+                return 0_currency; // Custom strongly-typed currency literal for safety
+            }
+    
+            return context.GetBaseEntranceFee();
+        }
+    }
+((::a conceptual example of constructing a flume ride at completion and your currently viewing it being ridden by the park guests::/'))
+    ; Subroutine at address 0x004A2F80 (Conceptual CompleteRide Construction)
+    ; EAX = Ride ID, EBX = Track Segment Index
+    _finalize_flume_ride:
+        push    ebp
+        mov     ebp, esp
+        mov     edx, [0x009E3C50]     ; 0x009E3C50 is the hardcoded global pointer to Ride Array
+        imul    eax, 0x2B4            ; Multiply Ride ID by size of original Ride Struct (692 bytes)
+        add     edx, eax              ; EDX now points to the exact memory slot of our Log Flume
+    
+        ; Check if the station loop is closed properly
+        mov     cl, [edx + 42]        ; Offset 42: Track Status Flags
+        and     cl, 0x01              ; Mask bit 0 (IsLoopClosed)
+        jz      .error_not_closed     ; If bit is 0, jump to error handler
+    
+        ; Calculate water volume requirements and fill the flume
+        mov     word ptr [edx + 112], 0x03E8 ; Offset 112: Force vehicle station speed (1000 fixed-point)
+        or      byte ptr [edx + 43], 0x04    ; Offset 43: Turn on 'WaterFilled' flag bit
+        
+        ; Trigger the "Ride Completed" sound effect
+        mov     eax, 45               ; Sound effect ID 45 (Mechanical completion click)
+        call    0x004BC110            ; Call hardcoded global audio playback function
+    
+        pop     ebp
+        ret
+    
+    .error_not_closed:
+        mov     eax, 0x80000002       ; Return error code: "Track is not a complete circuit!"
+        pop     ebp
+        ret
+    ; (Final creation of the 'Log Flume' ride)
+    #include <openrct2/ride/Ride.h>
+    #include <openrct2/ride/RideManager.h>
+    #include <openrct2/audio/Audio.h>
+    #include <openrct2/world/Track.h>
+    
+    namespace OpenRCT2::Ride
+    {
+        /**
+         * Finalizes the construction of a water-based attraction (like a Log Flume).
+         * Validates track integrity, charges the player, and initializes game states.
+         */
+        GameActionResult FinalizeFlumeConstruction(const GameContext& context, const RideId rideId)
+        {
+            // 1. Fetch the strongly-typed Ride object from the manager (No mystery hex pointers)
+            auto* ride = context.GetRideManager()->GetRide(rideId);
+            if (ride == nullptr)
+            {
+                return GameActionResult::Failure(StringIds::InvalidRideError);
+            }
+    
+            // 2. Query the Track System to see if the track circuit closes back into itself
+            TrackLayout track = context.GetTrackManager()->GetLayoutForRide(rideId);
+            if (!track.IsCompleteCircuit())
+            {
+                // Instead of a cryptic hex error code, return a localized system string
+                return GameActionResult::Failure(StringIds::TrackIsAnIncompleteCircuit);
+            }
+    
+            // 3. Apply modern object-oriented modifications safely
+            ride->SetStatusFlags(RideStatusFlags::CircuitComplete, true);
+            
+            // Log Flumes require specialized water properties initialized at build completion
+            if (ride->Type == RideType::LogFlume)
+            {
+                ride->WaterProperties.IsFilled = true;
+                ride->WaterProperties.CurrentVelocity = 1.5_meters_per_second;
+                ride->StationProperties.EjectionForce = 1.0_g; 
+            }
+    
+            // 4. Update the visual map data structures dynamically
+            context.GetMapRenderer()->InvalidateRideTracks(rideId);
+    
+            // 5. Play audio via a dedicated, abstracted Audio Context API
+            context.GetAudioManager()->PlayAudioEffect(AudioEffectId::RideConstructionComplete);
+    
+            return GameActionResult::Success();
+        }
+    }
+    
+    void FlumeRide::SpawnVehicles()
+    {
+        for (size_t i = 0; i < this->MaxBoats; i++)
+        {
+            LogFlumeBoat boat;
+            boat.Id = EntityIdManager::AllocateId();
+            boat.CurrentStation = 0;
+            boat.TrackProgress = i * 20.0f; // Space them out on the track
+            boat.Velocity = 0.0_mph;
+            boat.Passengers = { nullptr, nullptr, nullptr, nullptr }; // 4 empty seats
+            
+            this->ActiveVehicles.push_back(boat);
+        }
+    }
+    //(Moving the boat)
+    void LogFlumeBoat::UpdatePhysics(const MapContext& map)
+    {
+        // Fetch the exact track piece the boat is sitting on right now
+        TrackElement trackPiece = map.GetTrackElementAt(this->Position);
+    
+        if (trackPiece.IsWaterChannel())
+        {
+            // Apply constant forward propulsion from the flume's water pump current
+            this->Velocity += WaterCurrentForce * TileDeltaTime;
+            this->Velocity *= WaterFrictionDamping; // Water creates drag
+        }
+        
+        if (trackPiece.IsDropSegment())
+        {
+            // Gravity takes over on a steep flume drop
+            this->Velocity += GravityConstant * sin(trackPiece.SlopeAngle) * TileDeltaTime;
+        }
+    
+        // Update the visual X, Y, Z coordinates based on velocity
+        this->Position += this->Velocity * DirectionVector;
+    }
+    //(How they react while sitting inside)*'cpp file.
+    void LogFlumeBoat::UpdatePassengersHappiness()
+    {
+        // If the boat hits a splashdown segment at high speed
+        if (this->IsHittingSplashdown() && this->Velocity > 15_mph)
+        {
+            for (Guest* guest : this->Passengers)
+            {
+                if (guest != nullptr)
+                {
+                    // 1. Boost their excitement and nausea based on the speed of the drop
+                    guest->Stats.Nausea += 2;
+                    guest->Stats.Happiness += 10;
+    
+                    // 2. Modify their AI state to trigger a screaming/cheering flag
+                    guest->SpriteState = SpriteAnimationState::Screaming;
+                    
+                    // 3. OpenRCT2 Quality of Life: Calculate if they got wet!
+                    guest->Inventory.IsWet = true; 
+                    guest->Cash -= 0.10_currency; // Conceptually buying a camera photo
+                }
+            }
+            
+            // Trigger a heavy splash particle engine effect at the boat's coordinates
+            Context::GetParticleManager()->SpawnSplashParticles(this->Position, this->Velocity);
+            Context::GetAudioManager()->PlayAudioAtLocation(SoundEffect::WaterSplash, this->Position);
+        }
+    }
+    //(Then finally the C++ advantage of *'What you see on your monitor)
+    void MapRenderer::DrawActiveVehicles(RenderTarget* target)
+    {
+        for (const auto& boat : flumeRide.ActiveVehicles)
+        {
+            // Render the raw Log Flume boat sprite base
+            target->DrawSprite(boat.Position, SpriteIds::LogFlumeBoatBase, boat.RotationAngle);
+    
+            // Render each guest sprite *inside* the boat frame coordinates
+            for (size_t seat = 0; seat < boat.Passengers.size(); seat++)
+            {
+                Guest* passenger = boat.Passengers[seat];
+                if (passenger != nullptr)
+                {
+                    Vector3 seatOffset = GetSeatCoordinateOffset(boat.RotationAngle, seat);
+                    
+                    // Draw the specific guest head/body layer, showing their current emotional face
+                    target->DrawSprite(boat.Position + seatOffset, passenger->GetTargetSpriteId(), boat.RotationAngle);
+                }
+            }
+        }
+    }
+    
+//{'}
+1.  sudo apt update
+    sudo apt install -y wget unshield flatpak
+    
+    # Set up Flathub and install OpenRCT2
+    flatpak remote-add --if-not-exists flathub https://flathub.org
+    flatpak install flathub io.openrct2.OpenRCT2 -y
+2.  wget -O ~/Downloads/rct2_triple_thrill.iso "https://archive.org"
+3.  (bash)
+    # Create directories for mounting and for your permanent game files
+    sudo mkdir -p /mnt/rct2_iso
+    mkdir -p ~/games/rct2
+    
+    # Mount the downloaded ISO image
+    sudo mount -o loop ~/Downloads/rct2_triple_thrill.iso /mnt/rct2_iso
+    
+    # Extract the base game installation files from the disc cabinet archive
+    unshield -d ~/games/rct2 x /mnt/rct2_iso/data1.cab
+    
+    # Unmount the ISO and safely delete the massive download to save space
+    sudo umount /mnt/rct2_iso
+    rm ~/Downloads/rct2_triple_thrill.iso
+4.  flatpak run io.openrct2.OpenRCT2 set-rct2 ~/games/rct2
+5.  flatpak run io.openrct2.OpenRCT2
+6.  Then you can incorporate the original RollerCoaster Tycoon which you can 'absolutely use this exact ISO file with OpenRCT2, but only to unlock the original RollerCoaster Tycoon 1 maps and scenarios.'(Google*AI):09;
+((::it gets real interesting in the cross variations of the src/openrct2-ui/windows/ and for example this file --RideList.cpp-- which is the conversion of the original RollerCoaster Tycoon and RCT2 Assembly code into this 
+--In programming, there is no way Roze could of came up with those terminal commands, these five terminal commands come from exact machine logic that is necessary in order to do this process.--(Where does it come from??):80{9}:-;'
+
 -- On a side note, it is possible to view and edit the codebase in Java or Swift(C++) which is the two native languages of Android and Apple iOS. I can install Unity and Android Studio 
 on my Ubuntu machine and that is all you need. If the codebase is react or typescript or some kind of javascript you can download a live 'QR Scan' called Expo Go which is an Developer Tool'
 and from there you can test case which is view the codebase running on your iPhone. I have an iPhone 6s which means I only have capability of 15.8.8 apps and below. However, safari works

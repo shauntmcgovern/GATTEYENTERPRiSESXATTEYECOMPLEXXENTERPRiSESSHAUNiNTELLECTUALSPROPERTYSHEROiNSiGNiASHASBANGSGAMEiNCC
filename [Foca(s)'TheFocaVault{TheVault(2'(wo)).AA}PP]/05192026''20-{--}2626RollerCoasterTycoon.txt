@@ -411,6 +411,20 @@ is played to this day. A simulation game based around the most enjoyable of past
 --Then perhaps an even engrossing entrance into the Assembly programming and necessary steps to view the codebase. With an Rab'(M) about this.
 (Twitter'Foca)
 --PS{(G)}{(M)}AG:-;T::-')'{0};
+[RABM]
+-Short history of Assembly programming languauge.
+-How the original Roller Coaster Tycoon and the RollerCoasterTycoon2 is written in very little C which lead to C++(used today) and the Assembly(1-1 machine code-coding language/.
+-An example of a translation between the Assembly language and the C++ today''s programming language.
+-Inclusion of the Instagram, X(formerly Twitter) and the posting of both the [foca] and this '[RABM] on Tumblr, because I still think its good for place for this, interest.
+-Internet Archive interests and business with Brewster Kahle(creator), Wiki and Atari marketing.
+-OpenRCT'2) inclusion but also how big the programming machine known as the ''Wine'' used with Linux is and continues to be to this day and how it important it was for Linux.
+-Then that would mark the conclusion of the beginners guide into Game*)'Development and programming assistance and begin a new phase of business with interesting business
+entrepreneurs and landing big name companies(like Atari which went from InfoGrames Interactive/Hasbro/then to Atari) and such as.
+
+-Really, its Internet Archive and its creator(Brewster Kahle also Alexa') and its Atari(has'carried*89.{0})') and its properties and its
+Game Development interest with Slack and Discord and the history of game programming from Assembly coding language into C and then into C++ which the new Grand Theft Auto(VI)
+is programmed into today and then finally Wine(OpenRCT2) and Ubuntu''(Linux):0{9};, and that is where I would like to go with this ->
+'[RA{B}'M]
 It was originally released in the dawn of the two dimensional and eventually became three dimensional. The originals, carried alot of enjoyment from one of America's favorite past times. The carnival. Amusement parks and state fairs. Assembly coding language is one of the
 
 first programming languages that was used. For game development is object orientated programming in action. That is what Roze the player is experiencing, using and seeing. Displayed across his machines. Roze got OpenRCT2 to play on his trash found CPU, his Linux machine done by

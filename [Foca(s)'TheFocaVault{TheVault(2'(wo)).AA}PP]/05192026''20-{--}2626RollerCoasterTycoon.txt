@@ -412,9 +412,20 @@ is played to this day. A simulation game based around the most enjoyable of past
 (Twitter'Foca)
 --PS{(G)}{(M)}AG:-;T::-')'{0};
 [RABM]
--Short history of Assembly programming languauge.
+-Short history of Assembly programming languauge.-
+Assembly programming language was the very first langauge beyond binary. Because in order to get it into machine line. Like a visual display displaying a image. Or a video player playing a dvd which is more of a modern task. The compiler would 
+then take the C++ code and then translate that into Assembly for your specific device. It then takes those Assembly commands, what is written in that langauge into binary instructions. The zero's and one's. It then is now recognized by the machine 
+as machine code. It then executes it. Its a unique form of binary instruction language especially for modern day processors.
+
 -How the original Roller Coaster Tycoon and the RollerCoasterTycoon2 is written in very little C which lead to C++(used today) and the Assembly(1-1 machine code-coding language/.
--An example of a translation between the Assembly language and the C++ today''s programming language.
+-An example of a translation between the Assembly language and the C++ today''s programming language.-
+{C, C++, Rust, Swift (iPhones, Windows .exe, Linux binaries) to  ARM64 machine code}
+{Java, Kotlin, C# (Android apps, Windows .NET apps) to  ARM64 machine code}
+{Python, JavaScript, Ruby (Web browsers, automation scripts) to  ARM64 machine code}
+ARM64 machine code is the specific binary instruction language understood by modern 64-bit ARM processors
+Tapping an application icon for example on the latest iPhones, would entail first a verification. Then the ARM64 machine code is mapped due to an iOS process(Icon'Pressed) which was executed and now it will be used by the iPhone's memory. The processor
+is then given the command to execute the Apple iOS iPhone Application and the application is displayed on the iPhone 6s.
+
 -Inclusion of the Instagram, X(formerly Twitter) and the posting of both the [foca] and this '[RABM] on Tumblr, because I still think its good for place for this, interest.
 -Internet Archive interests and business with Brewster Kahle(creator), Wiki and Atari marketing.
 -OpenRCT'2) inclusion but also how big the programming machine known as the ''Wine'' used with Linux is and continues to be to this day and how it important it was for Linux.

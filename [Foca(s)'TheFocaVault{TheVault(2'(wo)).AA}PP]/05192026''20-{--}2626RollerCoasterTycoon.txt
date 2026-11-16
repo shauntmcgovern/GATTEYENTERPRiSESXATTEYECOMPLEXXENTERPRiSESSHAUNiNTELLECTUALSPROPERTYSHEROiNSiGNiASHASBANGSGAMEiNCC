@@ -7,6 +7,7 @@
 4.  InternetArchives:09'RollerCoasterTycoon('https://github.com/shauntmcgovern/RollerCoasterTycoonInternetArchiveDeluxeDOTOR-G-):09;'
 5.  https://archive.org/details/roller-coaster-tycoon-2-triple-thrill-pack   @internetarchive'@internetarchive'@internetarchive#809:-;:-;':-;
 6.  https://en.wikipedia.org/wiki/Brewster_Kahle   @brewster_kahle'@brewster_kahle#609;;
+7.  https://en.wikipedia.org/wiki/Binary_code
 
 'Game Development'  '{P}
 'X'   @coastertycoons
@@ -418,6 +419,7 @@ then take the C++ code and then translate that into Assembly for your specific d
 as machine code. It then executes it. Its a unique form of binary instruction language especially for modern day processors.
 
 -How the original Roller Coaster Tycoon and the RollerCoasterTycoon2 is written in very little C which lead to C++(used today) and the Assembly(1-1 machine code-coding language/.
+
 -An example of a translation between the Assembly language and the C++ today''s programming language.-
 {C, C++, Rust, Swift (iPhones, Windows .exe, Linux binaries) to  ARM64 machine code}
 {Java, Kotlin, C# (Android apps, Windows .NET apps) to  ARM64 machine code}
@@ -427,7 +429,30 @@ Tapping an application icon for example on the latest iPhones, would entail firs
 is then given the command to execute the Apple iOS iPhone Application and the application is displayed on the iPhone 6s.
 
 -Inclusion of the Instagram, X(formerly Twitter) and the posting of both the [foca] and this '[RABM] on Tumblr, because I still think its good for place for this, interest.
--Internet Archive interests and business with Brewster Kahle(creator), Wiki and Atari marketing.
+-Internet Archive interests and business with Brewster Kahle(creator), Wiki
+Brewster Kahle is the creator of the Internet Archive. What is the greatest thing about the internet archive is that it essentially is a public place for available content that you can find during your research into your very own public library or 
+for example if it is a video game even a video game demo past released and it has escaped the terms of copyrighted materials it then is dignified as a public asset. What that means. Is power to the people just like his great Alexa of the (I)nternet creation
+and what that did for the world wide web was put it in a distinct scholastic academic allegiant perspective the internet never has been put in before. So influential that technology we have at our behest. Now that Alexa is in the past, the internet has moved to
+other outlets for example the work of Sundar Pichai and Google and its creators Larry Page and Sergey Brin to the work of Tim Cook and that of Apple and finally Bill Gates, his work nowadays, and that of Microsoft. He has now moved Internet Archive into other areas.
+Further dignifying it as legitimate. Notice, that what was around other 'outlets' with copyrighted content is not around this place, the Internet Archive. That is because, it is a trove of what is available to you and I. It goes along the very same law that is what is
+available to another at a school be it public library of research or book study it is available to those that inquire. Simply inquire. You may find a book of research, a music album or a video game that you would like to use for your own purposes. Leaving you better off than before. That is which it was, is which what is what intellectual thought the very intellectual academic reason that you are here, now. Having that, that book past read. That music album listened to. The video game available played. You have siginified
+that you are the controller of your very own oasis, your own pre-emptive type of face. How you hold your very being, in to today. Meaning, you can now use it at your own dispose.
+((Educational Thought))/:' {also:?/'}
+((Terms of Engagement of Listening Mood/:'Playful Play Art of Decoration the very Decoration of Mood Signifying your Metal your Rock/Music:?/';)):?/'
+
+- Atari marketing.
+    /what Atari doesn't do.
+    /What could it be what could it lead to.
+    /Then is it not sound.
+So that is where this all began. As we know upon our research as we get into this as we go into this. What other games. Please. The computer has to translate everything into machine code.
+It takes no matter the device and translates it in real time in order to run the process in as always and always will be machine code. 
+--• Compilation (Used by Windows apps, iOS apps, and high-end video games): A specialized program called a compiler translates the entire human-readable codebase into raw machine code (binary) before you ever run it..
+(Then'From'There) Once the software is in binary format and loaded into your computer's memory (RAM), the operating system creates a process—an active, running instance of the program. 
+The CPU then executes the binary using a continuous loop called the Fetch-Decode-Execute Cycle:--'{A}{i}'{i')}
+---(Essentially) everything that you see, technology-wise, is a machine code binary expression.---
+---(Also)From Windows to Apple iOS and its devices to even Linux machines, from servers to clients, is executing their entire processes in 'Binary making our computational capacities universal in this way,, {:/'yes'?/:}+'
+https://en.wikipedia.org/wiki/Binary_code
+
 -OpenRCT'2) inclusion but also how big the programming machine known as the ''Wine'' used with Linux is and continues to be to this day and how it important it was for Linux.
 -Then that would mark the conclusion of the beginners guide into Game*)'Development and programming assistance and begin a new phase of business with interesting business
 entrepreneurs and landing big name companies(like Atari which went from InfoGrames Interactive/Hasbro/then to Atari) and such as.

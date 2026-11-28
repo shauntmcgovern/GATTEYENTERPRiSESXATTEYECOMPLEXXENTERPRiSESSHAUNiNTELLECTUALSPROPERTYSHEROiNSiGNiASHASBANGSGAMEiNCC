@@ -11,6 +11,8 @@
 8.  https://en.wikipedia.org/wiki/Atari_Interactive
 9.  https://atari.com/products/rollercoaster-tycoon-wonderworks
 10. https://web.archive.org/web/19970120054348/http://www.hasbro.com/cdrom/index.html (Wayback'Machine is owned by Internet Archive'Brewster Kahle)'::-;
+11. https://archive.org/details/pdfy-bJ5LV1tb2PUlELsx/page/n3/mode/1up?ref=ol (This the twentieth seminar of the great Jacques Lacan and it covers jouissance to the Baroque)::/')'P{S}AT::-;
+12. https://en.wikipedia.org/wiki/Open_Library (Open Library is a project of the Internet Archive founded by Mr. Kahle, a nonprofit organization:/')
 
 'Game Development'  '{P}
 'X'   @coastertycoons
@@ -207,7 +209,7 @@ c
             return context.GetBaseEntranceFee();
         }
     }
-((::a conceptual example of constructing a flume ride at completion and your currently viewing it being ridden by the park guests::/'))
+    ((::a conceptual example of constructing a flume ride at completion and your currently viewing it being ridden by the park guests::/'))
     ; Subroutine at address 0x004A2F80 (Conceptual CompleteRide Construction)
     ; EAX = Ride ID, EBX = Track Segment Index
     _finalize_flume_ride:
@@ -236,8 +238,9 @@ c
     .error_not_closed:
         mov     eax, 0x80000002       ; Return error code: "Track is not a complete circuit!"
         pop     ebp
-        ret
-    ; (Final creation of the 'Log Flume' ride)
+        ret                           ; (Final creation of the 'Log Flume' ride)
+
+
     #include <openrct2/ride/Ride.h>
     #include <openrct2/ride/RideManager.h>
     #include <openrct2/audio/Audio.h>
@@ -455,6 +458,20 @@ available to another at a school be it public library of research or book study 
 that you are the controller of your very own oasis, your own pre-emptive type of face. How you hold your very being, in to today. Meaning, you can now use it at your own dispose.
 ((Educational Thought))/:' {also:?/'}
 ((Terms of Engagement of Listening Mood/:'Playful Play Art of Decoration the very Decoration of Mood Signifying your Metal your Rock/Music:?/';)):?/'
+https://archive.org/details/pdfy-bJ5LV1tb2PUlELsx/mode/1up?ref=ol '(Seminar 20 of the Jacques Lacan covering Feminine Sexuality' of 1972)
+(Here is Lacans' "Speech and Language in Psychoanalysis" from '68) also one of the works available via' OpenLibrary and the Internet Archives owned by the late and the 'Great butt not late-yet (Brewster Kahle)'M.{M}.S.>{TT}::-;"-{'}+/[=]::-;
+    /'(https://archive.org/details/languageofselffu0000laca_q7m4/page/n3/mode/thumb)"-'
+Also, for further note the Lacanian psychoanalyst, Slavoj Žižek, works available currently (https://openlibrary.org/authors/OL3278524A/Slavoj_%C5%BDi%C5%BEek?mode=ebooks)'
+The InternetArchive is 30 years old, in terms of the internet that is lasting power. The OpenLibrary post-dates the InternetArchive by exactly ten years, making it now 20 years old online today. The moment of fact is this. There is a form of the internet and that
+of personal computing and it goes along with personal endowment of the subject. The subjects at hand. 'If it is readily available' A person, student, father or mother, young boy or child of any descent or that of any sexual making and makeup can have by it. That 
+is their right. Your very personal right to go inside of the open library project and check out a Slavoj or a Lacan at your leisure if your public library currently does not have it, as it serves as an alternative. The internet was meant for this. It was meant 
+to be used as any utensil if a person does not have it readily available. Nor if it can afford to do so. Yet, if there is a way there is a way to do it open source. Meaning the linux machines that I am currently using and if I want to listen to a bit of music, 
+I can or download the latest movie and preview I can as well. Or check out the book to read for myself. It was meant to distinguish and prepare have it be revelatory towards the very meaning of a person. That their is an alternative. We all know how well the new
+and purchased side of information technology is with all of its books, art and music movie and films yet we know how great and universal the free side of the information technology is with its refurbishments its borrowings and its open source projects that give us
+value in a way we never had it before and allows us all to continue in this way to a better form of person along with its information technology and where it stands today. I think that every book in a public library should be available to all. I think that a person
+should be able to hear and see any form of music or movie that they do so shall desire. I also think that the open source community of the 21st century could always seek perfection, I also think the monetary side of this information technology we have and all of its
+avenues be it book study, movie and films and the art community could be perfected as well. And in a composition. In this composition of these communities as they continue to prosper and activise we must understand eachother that this is for the betterment of all 
+peoples across all countries, nations and lands. For this is a global supremacy of our very own human intellect and expression directed towards the greater good of human life shall lived, well and under law.{9}{8')}{s')}{{t}}::-;
 
 - Atari marketing.
     /what Atari doesn't do.
@@ -471,6 +488,7 @@ animation and that is what you are playing as a gamer of these original systems.
 -Then that would mark the conclusion of the beginners guide into Game*)'Development and programming assistance and begin a new phase of business with interesting business
 entrepreneurs and landing big name companies(like Atari which went from InfoGrames Interactive/Hasbro/then to Atari) and such as.
 ((::a conceptual example of constructing a flume ride at completion and your currently viewing it being ridden by the park guests::/'))
+Assembly'Assembly:98x'{b/T}')}T
     ; Subroutine at address 0x004A2F80 (Conceptual CompleteRide Construction)
     ; EAX = Ride ID, EBX = Track Segment Index
     _finalize_flume_ride:
@@ -499,143 +517,85 @@ entrepreneurs and landing big name companies(like Atari which went from InfoGram
     .error_not_closed:
         mov     eax, 0x80000002       ; Return error code: "Track is not a complete circuit!"
         pop     ebp
-        ret
-    ; (Final creation of the 'Log Flume' ride)
-    #include <openrct2/ride/Ride.h>
-    #include <openrct2/ride/RideManager.h>
-    #include <openrct2/audio/Audio.h>
-    #include <openrct2/world/Track.h>
-    
-    namespace OpenRCT2::Ride
-    {
-        /**
-         * Finalizes the construction of a water-based attraction (like a Log Flume).
-         * Validates track integrity, charges the player, and initializes game states.
-         */
-        GameActionResult FinalizeFlumeConstruction(const GameContext& context, const RideId rideId)
-        {
-            // 1. Fetch the strongly-typed Ride object from the manager (No mystery hex pointers)
-            auto* ride = context.GetRideManager()->GetRide(rideId);
-            if (ride == nullptr)
-            {
-                return GameActionResult::Failure(StringIds::InvalidRideError);
-            }
-    
-            // 2. Query the Track System to see if the track circuit closes back into itself
-            TrackLayout track = context.GetTrackManager()->GetLayoutForRide(rideId);
-            if (!track.IsCompleteCircuit())
-            {
-                // Instead of a cryptic hex error code, return a localized system string
-                return GameActionResult::Failure(StringIds::TrackIsAnIncompleteCircuit);
-            }
-    
-            // 3. Apply modern object-oriented modifications safely
-            ride->SetStatusFlags(RideStatusFlags::CircuitComplete, true);
-            
-            // Log Flumes require specialized water properties initialized at build completion
-            if (ride->Type == RideType::LogFlume)
-            {
-                ride->WaterProperties.IsFilled = true;
-                ride->WaterProperties.CurrentVelocity = 1.5_meters_per_second;
-                ride->StationProperties.EjectionForce = 1.0_g; 
-            }
-    
-            // 4. Update the visual map data structures dynamically
-            context.GetMapRenderer()->InvalidateRideTracks(rideId);
-    
-            // 5. Play audio via a dedicated, abstracted Audio Context API
-            context.GetAudioManager()->PlayAudioEffect(AudioEffectId::RideConstructionComplete);
-    
-            return GameActionResult::Success();
-        }
+        ret                           ; (Final creation of the 'Log Flume' ride)
+
+(C) language //:-;'
+#include <stdint.h>
+#define RIDE_FLAG_LOOP_CLOSED  0x01
+#define RIDE_FLAG_WATER_FILLED 0x04
+#define ERR_TRACK_NOT_CLOSED   0x80000002
+#define SFX_CONSTRUCTION_CLICK 45
+
+// Ensure exact byte alignment matching the 692-byte (0x2B4) assembly struct
+#pragma pack(push, 1)
+typedef struct {
+    uint8_t  _pad0[42];          // Offsets 0x00 - 0x29
+    uint8_t  track_status_flags; // Offset 42 (0x2A)
+    uint8_t  ride_state_flags;   // Offset 43 (0x2B)
+    uint8_t  _pad1[68];          // Offsets 0x2C - 0x6F
+    uint16_t station_speed;      // Offset 112 (0x70)
+    uint8_t  _pad2[578];         // Offsets 0x72 - 0x2B3 (Total = 692 bytes)
+} Ride;
+#pragma pack(pop)
+// Hardcoded global references from the binary
+#define gRideArray ((Ride*)(*(uintptr_t*)0x009E3C50))
+typedef void (__cdecl *PlaySoundFn)(uint32_t sound_id);
+#define PlaySound ((PlaySoundFn)0x004BC110)
+uint32_t finalize_flume_ride(uint32_t ride_id, uint32_t track_segment_index) {
+    (void)track_segment_index; // Unused in this routine (passed in EBX)
+    Ride* ride = &gRideArray[ride_id];
+    // Check if bit 0 (IsLoopClosed) is set
+    if ((ride->track_status_flags & RIDE_FLAG_LOOP_CLOSED) == 0) {
+        return ERR_TRACK_NOT_CLOSED;
     }
-    
-    void FlumeRide::SpawnVehicles()
-    {
-        for (size_t i = 0; i < this->MaxBoats; i++)
-        {
-            LogFlumeBoat boat;
-            boat.Id = EntityIdManager::AllocateId();
-            boat.CurrentStation = 0;
-            boat.TrackProgress = i * 20.0f; // Space them out on the track
-            boat.Velocity = 0.0_mph;
-            boat.Passengers = { nullptr, nullptr, nullptr, nullptr }; // 4 empty seats
-            
-            this->ActiveVehicles.push_back(boat);
+    // Set station water current speed to 1000 (0x03E8) and enable water rendering
+    ride->station_speed = 1000;
+    ride->ride_state_flags |= RIDE_FLAG_WATER_FILLED;
+    // Play mechanical completion click
+    PlaySound(SFX_CONSTRUCTION_CLICK);
+    return 0; // Success
+}
+
+(C++) language //:-;'
+
+#include <cstdint>
+#include <expected>
+#include <span>
+
+enum class RideError : uint32_t {
+    TrackNotClosed = 0x80000002
+};
+enum class SoundEffect : uint32_t {
+    MechanicalClick = 45
+};
+namespace Audio {
+    void Play(SoundEffect sfx);
+}
+class Ride {
+public:
+    bool isLoopClosed() const noexcept { return m_loopClosed; }
+
+    std::expected<void, RideError> finalizeFlume(uint32_t /*trackSegmentIndex*/) {
+        if (!isLoopClosed()) {
+            return std::unexpected(RideError::TrackNotClosed);
         }
+
+        m_stationSpeed = 1000; // 0x03E8 fixed-point speed
+        m_waterFilled = true;
+
+        Audio::Play(SoundEffect::MechanicalClick);
+        return {};
     }
-    //(Moving the boat)
-    void LogFlumeBoat::UpdatePhysics(const MapContext& map)
-    {
-        // Fetch the exact track piece the boat is sitting on right now
-        TrackElement trackPiece = map.GetTrackElementAt(this->Position);
-    
-        if (trackPiece.IsWaterChannel())
-        {
-            // Apply constant forward propulsion from the flume's water pump current
-            this->Velocity += WaterCurrentForce * TileDeltaTime;
-            this->Velocity *= WaterFrictionDamping; // Water creates drag
-        }
-        
-        if (trackPiece.IsDropSegment())
-        {
-            // Gravity takes over on a steep flume drop
-            this->Velocity += GravityConstant * sin(trackPiece.SlopeAngle) * TileDeltaTime;
-        }
-    
-        // Update the visual X, Y, Z coordinates based on velocity
-        this->Position += this->Velocity * DirectionVector;
-    }
-    //(How they react while sitting inside)*'cpp file.
-    void LogFlumeBoat::UpdatePassengersHappiness()
-    {
-        // If the boat hits a splashdown segment at high speed
-        if (this->IsHittingSplashdown() && this->Velocity > 15_mph)
-        {
-            for (Guest* guest : this->Passengers)
-            {
-                if (guest != nullptr)
-                {
-                    // 1. Boost their excitement and nausea based on the speed of the drop
-                    guest->Stats.Nausea += 2;
-                    guest->Stats.Happiness += 10;
-    
-                    // 2. Modify their AI state to trigger a screaming/cheering flag
-                    guest->SpriteState = SpriteAnimationState::Screaming;
-                    
-                    // 3. OpenRCT2 Quality of Life: Calculate if they got wet!
-                    guest->Inventory.IsWet = true; 
-                    guest->Cash -= 0.10_currency; // Conceptually buying a camera photo
-                }
-            }
-            
-            // Trigger a heavy splash particle engine effect at the boat's coordinates
-            Context::GetParticleManager()->SpawnSplashParticles(this->Position, this->Velocity);
-            Context::GetAudioManager()->PlayAudioAtLocation(SoundEffect::WaterSplash, this->Position);
-        }
-    }
-    //(Then finally the C++ advantage of *'What you see on your monitor)
-    void MapRenderer::DrawActiveVehicles(RenderTarget* target)
-    {
-        for (const auto& boat : flumeRide.ActiveVehicles)
-        {
-            // Render the raw Log Flume boat sprite base
-            target->DrawSprite(boat.Position, SpriteIds::LogFlumeBoatBase, boat.RotationAngle);
-    
-            // Render each guest sprite *inside* the boat frame coordinates
-            for (size_t seat = 0; seat < boat.Passengers.size(); seat++)
-            {
-                Guest* passenger = boat.Passengers[seat];
-                if (passenger != nullptr)
-                {
-                    Vector3 seatOffset = GetSeatCoordinateOffset(boat.RotationAngle, seat);
-                    
-                    // Draw the specific guest head/body layer, showing their current emotional face
-                    target->DrawSprite(boat.Position + seatOffset, passenger->GetTargetSpriteId(), boat.RotationAngle);
-                }
-            }
-        }
-    }
+
+private:
+    bool m_loopClosed = false;
+    bool m_waterFilled = false;
+    uint16_t m_stationSpeed = 0;
+};
+// Example usage with a global ride container
+std::expected<void, RideError> FinalizeFlumeRide(std::span<Ride> rides, uint32_t rideId, uint32_t segmentIndex) {
+    return rides[rideId].finalizeFlume(segmentIndex);
+}
 
 
 -Really, its Internet Archive and its creator(Brewster Kahle also Alexa') and its Atari(has'carried*89.{0})') and its properties and its
